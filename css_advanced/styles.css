@@ -1,0 +1,109 @@
+:root{
+    --primary-color:#FFFBF7;
+    --secondary-color:#fff;
+
+    --spacing-xl: 150px;
+    --spacing-lg: 100px;
+    --spacing-md: 50px;
+    --spacing-s: 25px;
+    --spacing-xs: 15px;
+    --spacing-xxs: 5px;
+
+
+    --font-size-sm: 15px;
+    --font-size-md: 30px;
+    --font-size-lg: 45px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    height: 50vh;
+    background-image: url(images/Object.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-left:var(--spacing-lg) ;
+    padding-right: var(--spacing-lg);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: #fff; 
+}
+
+.sub-nav {
+    list-style: none;
+    display: flex;
+    column-gap: var(--spacing-xxs);
+
+}
+
+.advanced {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.advanced >h1 {
+    color:white;
+    font-size: large;
+
+}
+
+.img-display {
+    border: none;
+    width: 190px;
+    overflow: hidden;
+    border-radius: var(--spacing-xxs);
+}
+
+.img-display > img {
+    width: inherit;
+}
+
+.img-display > div {
+    padding: var(--spacing-xs);
+}
+
+.Learn {
+    background-color: gray;
+    display: flex;
+    column-gap: var(--spacing-xs);
+    color:white;
+    padding-top: 20px;
+}
+
+.Learn > h2 {
+    display: flex;
+}
+
+.quotes {
+        background-color: purple;
+        display: flex;
+        column-gap: var(--spacing-xs);
+        color:white; 
+        padding: bottom 10px; 
+}
+
+.quotes > div {
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+}
+
+.videos {
+        background-color: whitesmoke;
+        display: flex;
+        column-gap: var(--spacing-xs);
+        color:black; 
+        padding: bottom 10px; 
+}
+
+ss
