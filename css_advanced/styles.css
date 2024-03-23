@@ -106,4 +106,87 @@ nav {
         padding: bottom 10px; 
 }
 
-ss
+.membership {
+    background-color: #FFFBF7;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.membership > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.membership img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.membership div > div {
+    margin-left: var(--spacing-lg);
+}
+
+.membership div > div h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-s);
+}
+
+.membership div > div p {
+    margin-bottom: var(--spacing-s);
+}
+
+.membership div > div button {
+    background-color: #fff;
+    color: #FFFBF7;
+    border: 2px solid #FFFBF7;
+    padding: var(--spacing-s) var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    cursor: pointer;
+}
+
+.FAQ {
+    background-color: #fff;
+    padding: var(--spacing-lg);
+}
+
+.FAQ > div {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: var(--spacing-lg);
+}
+
+.FAQ > div > div {
+    flex-basis: calc(50% - var(--spacing-lg));
+}
+
+.FAQ h3 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-s);
+}
+
+.FAQ p {
+    margin-bottom: var(--spacing-s);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: var(--spacing-lg);
+    text-align: center;
+}
+
+.footer img {
+    width: 50px;
+    margin-bottom: var(--spacing-md);
+}
+
+.footer a {
+    margin: 0 var(--spacing-s);
+    color: #fff;
+}
+
+.footer p {
+    margin-top: var(--spacing-md);
+}
+
